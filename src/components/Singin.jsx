@@ -25,32 +25,34 @@ const Signin = () => {
         </p>
 
         {/* Email Field */}
-        <Label
-          htmlFor="email"
-          className={`${formFieldStyle.label} top-[195px] left-[34px]`}
-        >
-          Email address
-        </Label>
+
         <Input
           id="email"
           type="email"
           placeholder="Enter email address"
           className={`${formFieldStyle.container} top-[204px]`}
         />
+        <Label
+          htmlFor="email"
+          className={`${formFieldStyle.label} top-[195px] left-[34px]`}
+        >
+          Email address
+        </Label>
 
         {/* Password Field */}
-        <Label
-          htmlFor="password"
-          className={`${formFieldStyle.label} top-[258px] left-[34px]`}
-        >
-          Password
-        </Label>
+
         <Input
           id="password"
           type="password"
           placeholder="Enter Password"
           className={`${formFieldStyle.container} top-[267px]`}
         />
+        <Label
+          htmlFor="password"
+          className={`${formFieldStyle.label} top-[258px] left-[34px]`}
+        >
+          Password
+        </Label>
 
         {/* Button */}
         <button
